@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Converter</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <!--<link rel="stylesheet" href="bootstrap.css">-->
+    <!--<link rel="stylesheet" href="bootstrap-theme.css">-->
+    <link rel="stylesheet" href="converter.css" type="text/css">
+    
+    
+    <style type="text/css">
+        #activo a:link, #activo a:visited{
+            background: #1a1a1a;
+            color: #00ff00;
+        }
+    </style>
+  </head>
+  <body>
+      <div id="wrapper">
+          <header>
+              <ul class="home">
+                  <li><a href="index.html">Converter</a></li>
+              </ul>
+              
+              <ul class="navi">
+                  <li id="activo"><a href="dimension.html">Dimension</a></li>
+                  <li><a href="speed.html">Speed</a></li>
+                  <li><a href="mass.html">Mass</a></li>
+                  <li><a href="force.html">Force</a></li>
+                  <li class="fixt"><a href="pres_temp.html">Pressure/Temperature</a></li>
+                  <li><a href="time.html">Time</a></li>
+              </ul>
+          </header>
+          
+          <div id="container2">
+              
+              <form action="" class="distance">
+                  <h3>Length (long)</h3>
+                  <div class="forms">
+                      <label for="kilometers">Kilometers</label><input type="text" value="" class="kilometers">
+                  <label for="miles">Miles</label><input type="text" class="miles" value="">
+                  <br><br>
+                  <label for="meters">Meters</label><input type="text" class="meters" value="">
+                  <label for="yards">Yards</label><input type="text" class="yards" value="">
+                  <br><br><br>
+                  </div>
+                  
+                  <h3>Length (short)</h3>
+                  <div class="forms">
+                  <label for="centimeters">Centimeters</label><input type="text" class="centimeters" value="">
+                  <label for="inches">Inches</label><input type="text" class="inches" value="">
+                  <br><br>
+                  <label for="feet">Feet</label><input type="text" class="feet" value="">
+                  <br>
+                  <br>
+                  <br>
+                  </div>
+                  
+                  <h3>Area</h3>
+                  <div class="forms">
+                  <label for="sqm">Square meters</label><input type="text" value="" class="sqm">
+                  <label for="sqf">Square feet</label><input type="text" class="sqf" value="">
+                  <br><br>
+                  <label for="hectares">Hectares</label><input type="text" class="hectares" value="">
+                  <label for="acres">Acres</label><input type="text" class="acres" value="">
+                  <br>
+                  <br>
+                  <br>
+                  </div>
+                  
+                  <h3>Volume</h3>
+                  <div class="forms">
+                      <label for="m3">Cubic meters</label><input type="text" value="" class="m3">
+                  <label for="liters">Liters</label><input type="text" class="liters" value="">
+                  <br><br>
+                  <label for="gallons">Gallons (UK)</label><input type="text" class="gallons" value="">
+                  <label for="gallons2">Gallons (US)</label><input type="text" class="gallons2" value="">
+                  </div>
+                  
+              </form>
+              
+              
+              
+          </div>
+          
+          <div id="footer">
+              <div class="powered">
+                  <p class="rights">&copy; Brian E. Dormisch. All rights reserved</p>  <p class="contact">Contact: <a href="mailto:brian.dsch@gmail.com">brian.dsch@gmail.com</a></p> 
+              </div>
+          </div>
+      </div>
+    <script src="jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="converter.js"></script> 
+  </body>
+</html>
